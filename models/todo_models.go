@@ -22,7 +22,7 @@ type CreateUpdateTodoResponse struct {
 	Id string `json:"id"`
 }
 
-type GetDeleteTodoByIdRequest struct {
+type GetAndDeleteTodoByIdRequest struct {
 	Id string `json:"id"`
 }
 
@@ -34,7 +34,7 @@ type GetTodoByIdResponse struct {
 	UpdatedAt time.Time `json:"updated_at"`
 }
 
-type GeleteTodoResponse struct {
+type DeleteTodoResponse struct {
 	Id string `json:"id"`
 }
 
